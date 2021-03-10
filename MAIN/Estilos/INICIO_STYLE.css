@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*
+    Cualquier modificacion de los bordes; 
+    los pxs se añaden al ancho y alto de los elementos.*/
+}
+.main-formRegistro{
+    width: 300px;
+    background-color: #1e3470;
+    padding: 30px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 0%;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white; /*Le aplicamos color a las fuentes 
+    de texto dentro de este elemento*/
+    /*Para la transparencia opacity: 0.95;*/
+    
+}
+.main-formRegistro h4{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.main-formRegistro__entradas{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1a446e;
+    font-family: 'calibri';
+    font-size: 18px;  
+}
+.main-formRegistro p{
+    font-size: 40px;
+    text-align: center;
+    font-size:18px;
+    position:fixed;
+}
+.main-formRegistro a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+.main-formRegistro__botons {
+    width: 100%;
+    background: #1f53c5;
+    border:0px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.main-formRegistro{
+    box-shadow:0px 0px 4px 2px #000000;
+    -moz-box-shadow:0px 0px 4px 2px #000000;
+    -webkit-box-shadow:0px 0px 4px 2px #000000;
+}
+.main{
+    background: url("../colegio.jpeg") no-repeat center;
+    background-size: 100%;
+}
+.main-formResgistro-container{
+    display:inline;
+    border-radius: 50%;
+}
+.main-formResgistro-container__Logo{
+    width: 170px;
+    height: 170px;
+    /*margin-left: 92px;*/
+    margin-left: 40px;
+    margin-right: auto;
+    border:0px;
+}
+.main-formRegistro__backup{
+    color:white;
+}
