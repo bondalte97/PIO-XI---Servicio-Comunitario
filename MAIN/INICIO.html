@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INICIO</title>
     <LINK REL=StyleSheet HREF="/Estilos/INICIO_STYLE.css" TYPE="text/css">
-    <!--Agregamos el siguiente codigo para añadir iconos al proyecto-->
-    <script src="https://kit.fontawesome.com/472d1083f0.js" crossorigin="anonymous"></script>
 </head>
 <body class="main">
     <section class="main-formRegistro">
+
         <div class="main-formRegistro__container">
             <img src="Logo.png" alt="" class="main-formResgistro-container__Logo"></img>
         </div>
-        <i class="fas fa-user"></i>
-        <i class="fas fa-unlock-alt"></i>
-        <label class="main_formRegistro__label">Username:</label>
-        <input type="text" name="nombres" id="nombres"
-        placeholder="Username" class="main-formRegistro__entradas" required>
-        <label class="main_formRegistro__label">Password:</label>
-        <input type="password" name="contraseña" id="contraseña"
-        placeholder="Password" class="main-formRegistro__entradas" required>
-        <input type="submit" value="Ingresar" class="main-formRegistro__botons">
+
+        <div class="main-formRegistro__conte">
+            <input type="text" name="nombres" id="nombres"
+        placeholder="Usuario" class="main-formRegistro__entradas" required>
+        </div>
+
+        <div class="main-formRegistro__conte">   
+            <input type="password" name="contraseña" id="contraseña"
+            placeholder="Contraseña" class="main-formRegistro__entradas" required>
+        </div>
+
+        <input type="submit" value="Entrar" class="main-formRegistro__botons">
         <p><a href="#" class="main-formRegistro__backup">Recuperar Contraseña?</a></p>
+
     </section>
 </body>
 </html>
