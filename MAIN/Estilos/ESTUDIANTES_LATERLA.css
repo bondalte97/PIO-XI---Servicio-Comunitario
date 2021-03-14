@@ -59,10 +59,10 @@
     width: 90%;
 }
 .main-content__eva {
-    padding: 20px;
+    padding: 10px;
     position:absolute;
     right:0px;
-    width: 20%;
+    width: 28%;
     font-family: calibri;
 }
 .main-content-eva__form > label {
@@ -98,5 +98,91 @@
     -moz-box-shadow:0px 0px 4px 2px #cc1010;
     -webkit-box-shadow:0px 0px 4px 2px #000000;
     font-family: calibri;
-    color:#fc9002;
+    color:#fc9002; 
 }
+.materias:hover {
+    background: -webkit-linear-gradient(rgb(36, 53, 110), #ecd9a5)!important; 
+    background: -o-linear-gradient(rgb(36, 53, 110), #e7dab9)!important; 
+    background: -moz-linear-gradient(rgb(36, 53, 110), #eee4ce)!important; 
+    background: linear-gradient(rgb(36, 53, 110), #ecc298)!important;
+}
+hr {
+    width: 50%;
+}
+/*Configuracion del calendario: */
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One:400|Roboto:400,400italic,700);
+.jzdbox1 {
+    width:90%; 
+    background:#332f2e; 
+    border-radius:5px; 
+    overflow:hidden; 
+    display:block; 
+    margin-bottom:10px; 
+    box-shadow:0 0 10px #201d1c; 
+    margin:0 auto; 
+    margin-top:100px;
+    height: 380px;
+    margin-left:0px;
+    margin-top: 5px;
+  }
+  
+  .jzdcal {
+    padding:0 10px 10px 10px; 
+    box-sizing:border-box!important; 
+    background:rgb(36, 53, 110); 
+    background: -webkit-linear-gradient(rgb(36, 53, 110), #b3a68b)!important; 
+    background: -o-linear-gradient(rgb(36, 53, 110), #b3a68b)!important; 
+    background: -moz-linear-gradient(rgb(36, 53, 110), #b3a68b)!important; 
+    background: linear-gradient(rgb(36, 53, 110), #b3a68b)!important;
+  }
+  
+  .jzdcalt {
+    font:18px 'Roboto'; 
+    font-weight:700; 
+    color:#f7f3eb; 
+    display:block; 
+    margin:18px 0 0 0; 
+    text-transform:uppercase; 
+    text-align:center; 
+    letter-spacing:1px;
+  }
+  
+  .jzdcal span {
+    font:11px 'Roboto'; 
+    font-weight:400; 
+    color:#f7f3eb; 
+    text-align:center; 
+    width:42px; 
+    height:42px; 
+    display:inline-block; 
+    float:left; 
+    overflow:hidden; 
+    line-height:40px;
+  }
+  
+  .jzdcal .jzdb:before {
+    opacity:0.3; 
+    content:'o';
+  }
+  
+  .circle {
+    border:1px solid #f7f3eb; 
+    box-sizing:border-box!important; 
+    border-radius:200px!important;
+  }
+  
+  span[data-title]:hover:after, 
+  div[data-title]:hover:after {
+    font:11px 'Roboto'; 
+    font-weight:400; 
+    content:attr(data-title); 
+    position:absolute; 
+    margin:0 0 100px; 
+    background:#282423; 
+    border:1px solid #f7f3eb; 
+    color:#f7f3eb; 
+    padding:5px; 
+    z-index:9999; 
+    min-width:150px; 
+    max-width:150px;
+  }
