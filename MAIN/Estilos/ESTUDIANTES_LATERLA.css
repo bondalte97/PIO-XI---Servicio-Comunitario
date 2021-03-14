@@ -59,7 +59,7 @@
     width: 90%;
 }
 .main-content__eva {
-    padding: 10px;
+    padding: 20px;
     position:absolute;
     right:0px;
     width: 20%;
@@ -76,10 +76,27 @@
 .main-content-eva-form-checkbok {
     margin-bottom: 15px;
 }
-/*
 .main-content__cursos {
-    width:80%;
+    position:absolute;
+    padding: 25px;
+    width: 80%;
     height: 100%;
-    padding: 15px;
 }
-*/
+.main-content-cursos_list2 {
+    position: absolute;
+}
+.materias {
+    display:inline-block;
+    background-color: rgb(36, 53, 110);
+    height: 240px;
+    width: 240px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5%; 
+    padding: 15px;
+    box-shadow:0px 0px 4px 2px #948282;
+    -moz-box-shadow:0px 0px 4px 2px #cc1010;
+    -webkit-box-shadow:0px 0px 4px 2px #000000;
+    font-family: calibri;
+    color:#fc9002;
+}
