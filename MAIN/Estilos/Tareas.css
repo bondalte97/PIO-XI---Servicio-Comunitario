@@ -8,6 +8,48 @@
 .main{
     background-color:#b5bfda ;
 }
+/*Estilos de barra de busqueda:Simple search barr*/
+section[class="main-simpleSearch__container"]{
+    position:absolute;
+    width:30%;
+    height:6%;
+    /*background-color: aqua;*/
+    margin-left:9%;
+    margin-top:2%;
+    box-shadow:0px 0px 4px 2px #000000;
+    -moz-box-shadow:0px 0px 4px 2px #000000;
+    -webkit-box-shadow:0px 0px 4px 2px #000000;
+}
+.main-simpleSearch-container__bloqUno {
+    display:inline-block;
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    background-color: #1e3470;
+}
+.main-simpleSearch-container__searchsvg {
+    display:block;
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    left: 28%;
+    top: 13%;
+}
+.main-simpleSearch-container__bloqDos {
+    display:inline-block;
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    left: 15%;
+}
+input[class="main-simpleSearch-container-bloqDos__text"]{
+    display:block;
+    position:absolute;
+    width: 85%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/**/
 .main-lateral{
     position:fixed;
     width: 10%;
