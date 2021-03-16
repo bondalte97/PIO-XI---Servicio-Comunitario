@@ -71,7 +71,37 @@ input[class="main-simpleSearch-container-bloqDos__text"]{
     width: 100%;
     height: 25%;
 }
-
+/*
+.main-fileTareas-All__listas > div {
+    
+}
+*/
+.main-fileTareas-All-listas__conv {
+    position:relative;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    padding: 2px;
+    background-color: #b5bfda;
+}
+.main-fileTareas-All-listas__notf {
+    position:absolute;
+    display:inline-block;
+    width: 57%;
+    height: 100%;
+    padding: 10px;
+    background-color: #3152af;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+/*Estilos de los iconos: Check & File_pdf*/
+.main-formResgistro-container__logoTareas {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    height: 70%;
+    top: 15px;
+}
 /*Seccion de dudas*/
 .main__dudasTareas {
     position:absolute;
@@ -88,7 +118,7 @@ input[class="main-simpleSearch-container-bloqDos__text"]{
 .main-dudasTareas__campos {
     list-style:none;
     background-color: rgb(224, 217, 107);
-    position: relative;
+    position:relative;
     width: 100%;
     height: 100%;
 }
