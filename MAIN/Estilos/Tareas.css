@@ -48,25 +48,27 @@ input[class="main-simpleSearch-container-bloqDos__text"]{
 /*Seccion de tareas entregadas*/
 .main__fileTareas{
     position:absolute;
-    background-color:#1e3470;
+    /*background-color:#1e3470;*/
     width: 30%;
     height: 50%;
     top: 15%;
     left: 9%;
     padding: 10px;
+    /*
     box-shadow:0px 0px 4px 2px #000000;
     -moz-box-shadow:0px 0px 4px 2px #000000;
     -webkit-box-shadow:0px 0px 4px 2px #000000;
+    */
 }
 .main-fileTareas__All {
     position:relative;
     width: 100%;
     height: 100%;
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
 }
 .main-fileTareas-All__listas {
     list-style:none;
-    background-color: rgb(224, 217, 107);
+    /*background-color: rgb(224, 217, 107);*/
     position:relative;
     width: 100%;
     height: 25%;
@@ -90,7 +92,7 @@ input[class="main-simpleSearch-container-bloqDos__text"]{
     width: 57%;
     height: 100%;
     padding: 10px;
-    background-color: #3152af;
+    /*background-color: #3152af;*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
 }
@@ -109,34 +111,37 @@ input[class="main-simpleSearch-container-bloqDos__text"]{
     top: 15%;
     right: 15%;
     width: 40%;
-    height: 50%;
+    height: 65%;
     padding: 10px;
     box-shadow:0px 0px 4px 2px #000000;
     -moz-box-shadow:0px 0px 4px 2px #000000;
     -webkit-box-shadow:0px 0px 4px 2px #000000;
 }
+.label{
+    color:#ffc400;
+}
 .main-dudasTareas__campos {
     list-style:none;
-    background-color: rgb(224, 217, 107);
+    /*background-color: rgb(224, 217, 107);*/
     position:relative;
     width: 100%;
     height: 100%;
 }
 .main-dudasTareas-campos__CD {
     position:relative;
-    background-color: brown;
+    /*background-color: brown;*/
     width: 100%;
     height: 20%;
 }
 .main-dudasTareas-campos__CT {
     position:relative;
-    background-color: rgb(56, 212, 50);
+    /*background-color: rgb(56, 212, 50);*/
     width: 100%;
     height: 60%;
 }
 .main-dudasTareas-campos__CS {
     position:relative;
-    background-color: rgb(97, 68, 230);
+    background-color: rgb(231, 229, 240);
     width: 100%;
     height: 10%;
     padding: 5px;
@@ -163,8 +168,10 @@ input[class="main-simpleSearch-container-bloqDos__text"]{
     height: 40%;
 }
 .main-dudasTareas-campos-CD__hut {
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
     height: 60%;
+    color:#ffc400;
+    padding-top: 10px;;
 }
 /*Estilo del button para enviar dudas*/ 
 .main-dudasTareas-campos-EC__button {

@@ -24,7 +24,7 @@
         <ul class="main-fileTareas__All">
             <li class="main-fileTareas-All__listas">
                 <div class="main-fileTareas-All-listas__conv">
-                    <img src="/image_svg/check-solid.svg" alt="" class="main-formResgistro-container__logoTareas"></img>
+                    <img src="/image_svg/check-circle-solid.svg" alt="" class="main-formResgistro-container__logoTareas"></img>
                 </div>
                 <div class="main-fileTareas-All-listas__conv"> 
                     <img src="/image_svg/file-pdf-solid.svg" alt="" class="main-formResgistro-container__logoTareas"></img>
@@ -82,10 +82,23 @@
             <!--En este espacio: Curso y el destino-->
             <li class="main-dudasTareas-campos__CD">
                 <div class="main-dudasTareas-campos-CD__hot">
-                    <p>Cursos y destino</p>
+                    <form class="main-dudasTareas-campos-CD-hot__full" >
+                        <label class="label">Elija un curso:</label>
+                        <select class="main-dudasTareas-campos-CD-hot-full__select">
+                          <option value="Quimica">Quimica</option>
+                          <option value="Fisica">Fisica</option>
+                          <option value="Informatica">Informatica</option>
+                          <option value="Matematica">Matematica</option>
+                          <option value="Castellano">Castellano</option>
+                          <option value="Ingles">Ingles</option>
+                        </select>
+                        <label class="label">Destino:</label>
+                         <input type="text" name="" id="" placeholder="...">
+                      </form>
                 </div>
                 <div class="main-dudasTareas-campos-CD__hut">
-                    <p>Opciones de notas</p>
+                    <label>Asunto:</label>
+                        <input type="text" name="" id="" placeholder="..." size="50">
                 </div>
             </li>
             <!--En este espacio: Campo de texto-->
