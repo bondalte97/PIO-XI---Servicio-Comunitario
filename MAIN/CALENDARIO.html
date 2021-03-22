@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <LINK REL="StyleSheet" HREF="Estilos/Tareas.css" TYPE="text/css">
+    <LINK REL="StyleSheet" HREF="/Estilos/Calendar.css" TYPE="text/css">
     <title>PIO XII: Calendario</title>
 </head>
-<body>
+<body class="main">
+    <!--Calendario-->
+    <section class="main__contenedor">
+        <div class="main-contenedor__optionCalendar">
+            <ul class="main-contenedor-optionCalendar__jk">
+                <li class="main-contenedor-optionCalendar-jk__pl">Mes</li>
+                <li class="main-contenedor-optionCalendar-jk__pl">Semana</li>
+                <li class="main-contenedor-optionCalendar-jk__pl">Agenda</li>
+            </ul>
+            <div class="main-contenedor-optionCalendar__PT">
+                <a href="#"><img src="/image_svg/question-solid.svg" alt="" class="main-contenedor-optionCalendar-PT-Logo"></img></a>
+            </div>
+        </div>
+    </section>
     <!--Barra lateral: Cuenta , Tareas , Cursos , Actividades-->
     <aside class="main-lateral">
 
@@ -32,7 +45,7 @@
                     <img src="image_svg/graduation-cap-solid.svg" alt="" class="main-lateral-navegation__option"></img>
                     <p class="main-lateral-nevagation-incos__p">Cursos</p>
                 </a></li>
-                <li class="main-lateral-navegation-incos__bloq"><a href="#">
+                <li class="main-lateral-navegation-incos__bloq"><a href="CALENDARIO.html">
                     <img src="image_svg/calendar-plus-regular.svg" alt="" class="main-lateral-navegation__option"></img>
                     <p class="main-lateral-nevagation-incos__p">Fechas</p>
                 </a></li>
