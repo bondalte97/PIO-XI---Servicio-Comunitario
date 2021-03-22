@@ -103,3 +103,38 @@
     height: 100%;
     left:25%;
 }
+.main-contenedor__Botones {
+    /*background-color: aliceblue;*/
+    display:inline-block;
+    position:absolute;
+    width: 20%;
+    height: 100%;
+    left: 30%;
+}
+.main-contenedor-Botones__me {
+    background-color: rgb(247, 190, 2);
+    position:relative;
+    width: 50%;
+    float:right;
+    height: 50%;
+    top:25%;
+    border-radius: 10%;
+}
+h3 {
+    color:orange;
+    display:inline-block;
+    position:absolute;
+    left: 51%;
+    top: 25%;
+}
+.main-contenedor__table {
+    
+}
+th {
+    background-color: white;
+}
+.main-contenedor-table__dias {
+    background-color: #e5e9a9;
+    position:relative;
+    height: 76px;
+}
