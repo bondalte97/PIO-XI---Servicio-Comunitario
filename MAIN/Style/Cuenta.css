@@ -1,0 +1,12 @@
+.main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*
+    Cualquier modificacion de los bordes; 
+    los pxs se añaden al ancho y alto de los elementos.*/
+}
+.main__frame {
+    position:fixed;
+    width: 100%;
+    height: 100%;
+}
