@@ -56,7 +56,7 @@
     width: 75%;
 }
 .main__curse{
-    position:absolute;
+    position:fixed;
     height: 100%;
     width: 90%;
 }
@@ -92,6 +92,7 @@
     position:relative;
     height: 10%;
     width: 100%;
+    margin-bottom: 4px;
 }
 .main-curse-bloque1-nav__ul {
     display:inline-block;
@@ -189,4 +190,22 @@ h4 {
     width: 100%;
     height: 10%;
     top: 15px;
+}
+.main-curse__contenPM {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    top:0%;
+}
+.main-curse__Plan {
+    background: white;
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.main-curse__Material {
+    background: blue;
+    position: relative;
+    width: 50%;
+    height: 50%;
 }
