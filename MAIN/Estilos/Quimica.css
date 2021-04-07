@@ -215,9 +215,8 @@ li {
 .main-curse-contenPM__clocktwo {
 	position:absolute;
 	width: 50%;
-	height:100%;
-	/**
-	background: green;**/
+	height:100%;	
+	padding: 3%;
 }
 .main-curse-contenPM-clock__table {
 	position: relative;
@@ -232,4 +231,82 @@ li {
 	background: #bbb;**/
 	width:100%;
 	height:50%;
-}_
+}
+.main-curse-contenPM-clocktwo__Q {
+	position: relative;
+	/**
+	background: #ddd;**/
+	width: 100%;
+	height: 70%;
+}
+/**Estilo de la primera unidad **/
+.main-curse-contenPM-clocktwo-Q__Unid{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;	
+	width:100%;
+	height:40%
+	display: inline-block;
+}
+.main-curse-contenPM-clocktwo-Q-Unid__af {
+	position:relative;
+	width: 100%;
+	height:8%;
+	background: black;
+	color: white;
+}
+.main-curse-contenPM-clocktwo-Q-Unid-af__list > li{
+	position:relative;
+	display: block;
+	height: 10%;
+	color: orange;
+	background:white;
+}
+/**Estilo de la segunda unidad **/
+.main-curse-contenPM-clocktwo-Q__Unid2{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	background: blue;
+	width:100%;
+	height:30%
+	display: inline-block;
+}
+.main-curse-contenPM-clocktwo-Q-Unid2__afs {
+	position:relative;
+	width: 100%;
+	height:8%;
+	background: black;
+	color: white;
+}
+.main-curse-contenPM-clocktwo-Q-Unid2__ko > li{
+	position:relative;
+	display: block;
+	height: 10%;
+	color: orange;
+	background:white;
+}
+/**Estilo de la tercera unidad **/
+.main-curse-contenPM-clocktwo-Q__Unid3{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	background: blue;
+	width:100%;
+	height:30%
+	display: inline-block;
+}
+.main-curse-contenPM-clocktwo-Q-Unid3__afss{
+	position:relative;
+	width: 100%;
+	height:8%;
+	background: black;
+	color: white;
+}
+.main-curse-contenPM-clocktwo-Q-Unid3__koo > li{
+	position:relative;
+	display: block;
+	height:10%;
+	color: orange;
+	background:white;
+}
