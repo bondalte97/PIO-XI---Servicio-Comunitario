@@ -315,3 +315,23 @@ li {
     	background:  #1e3470;
 	padding: 10px;
 }
+/**Estilo del plan de evaluacion **/
+.main-curse-contenPM-clock-table__Eltable {
+	position:relative;
+	/**background: white;**/
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	height:80%;
+	top: 3%;
+	color: orange;
+	opacity: 0.9;
+    	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-curse-contenPM-clock-table-Eltable__tr1 {
+	position:relative;
+	background: black;
+}
+.main-curse-contenPM-clock-table-Eltable__tr2 {
+	background:white;
+}
