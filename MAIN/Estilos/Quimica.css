@@ -335,3 +335,31 @@ li {
 .main-curse-contenPM-clock-table-Eltable__tr2 {
 	background:white;
 }
+.main-curse-contenPM-clock__Dude{
+	padding: 3%;
+}
+.main-curse-contenPM-clock-Dude__place {
+	position:relative;
+	background: white;
+	width: 90%;
+	height: 90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.main-curse-contenPM-clock-Dude__place > button{
+	position:relative;
+	background: blue;
+	width: 100%;
+	height: 10%;
+	margin-left:auto;
+	margin-right:auto;
+	top: 90%;
+}
+.main-curse-contenPM-clock-Dude__place > textarea{
+	position:relative;
+	margin:0;
+	width: 100%;
+	height:60%;
+	background: green;
+	opacity: 0.666666;
+}
