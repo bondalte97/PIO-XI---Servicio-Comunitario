@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*
+    Cualquier modificacion de los bordes; 
+    los pxs se añaden al ancho y alto de los elementos.*/
+}
+.main{
+    background-color:#b5bfda ;
+}
+.main-lateral{
+    position:fixed;
+    width: 10%;
+    height: 100%;
+    right: 0px;
+    background-color:  #1e3470;
+    padding: 0px;
+    box-shadow:0px 0px 4px 2px #000000;
+    -moz-box-shadow:0px 0px 4px 2px #000000;
+    -webkit-box-shadow:0px 0px 4px 2px #000000;
+}
+.main-lateral > div{
+    display: block;
+}
+.main-lateral__container{
+    position:absolute;
+    width: 100%;
+}
+.main-formResgistro-container__Logo{
+    width: 125px;
+    height: 125px;
+    position:absolute;
+    left: 10px;
+}
+.main-lateral__navegation {
+    position:absolute;
+    top: 125px;
+    padding: 15px;
+    width: 90%;
+}
+.main-lateral-navegtion__incos {
+    list-style:none;
+}
+.main-lateral-navegation-incos__bloq{
+    padding-left: 35px;
+    padding-bottom: 40px;
+}
+.main-lateral-navegation-incos__bloq > p {
+    text-decoration: none;
+}
+.main-lateral-nevagation-incos__p{
+    list-style: none;
+    color: black;
+}
+.main-lateral-navegation__option{
+    width: 75%;
+}
+.main__curse{
+    position:fixed;
+    height: 100%;
+    width: 90%;
+}
+.main__curse > div {
+    display:inline-block;
+}
+.main-curse__bloque1 {
+    position:relative;
+    /*Borrar mas tarde*/
+    width: 70%;
+    height: 100%;
+    background: -webkit-linear-gradient(rgb(36, 53, 110), #ddd8ce)!important; 
+    background: -o-linear-gradient(rgb(36, 53, 110), #ceccc8)!important; 
+    background: -moz-linear-gradient(rgb(36, 53, 110), #cfcecb)!important; 
+    background: linear-gradient(rgb(36, 53, 110), #c0bfbc)!important;
+}
+.main-curse__bloque2 {
+    position:absolute;
+     /*Borrar mas tarde*/
+    background-color: #d1b16a;
+    width: 30%;
+    height: 100%;
+    padding: 1%;
+    background: -webkit-linear-gradient(rgb(36, 53, 110), #ddd8ce)!important; 
+    background: -o-linear-gradient(rgb(36, 53, 110), #ceccc8)!important; 
+    background: -moz-linear-gradient(rgb(36, 53, 110), #cfcecb)!important; 
+    background: linear-gradient(rgb(36, 53, 110), #c0bfbc)!important;
+    box-shadow:0px 0px 4px 2px #000000;
+    -moz-box-shadow:0px 0px 4px 2px #000000;
+    -webkit-box-shadow:0px 0px 4px 2px #000000;
+}
+.main-curse-bloque1__nav {
+    position:relative;
+    height: 10%;
+    width: 100%;
+    /**
+    margin-bottom: 4px;
+    **/
+}
+.main-curse-bloque1-nav__ul {
+    display:inline-block;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+.main-curse-bloque1-nav__ul > a {
+    text-decoration: none;
+    list-style: none;
+    display:inline-block;
+    padding: 2.8%;
+    margin: 0px 0px 0px 0px;
+    color:rgb(247, 190, 4)
+}
+.main-curse-bloque1-nav__ul > a:hover {
+    background-color: #000000; 
+}
+.main-curse-blopue2__progressbar {
+    position:relative;
+    width: 100%;
+    height: 60%;
+    /**background-color: #ffffff;**/
+    opacity:0.9;
+}
+.main-curse-blopue2__Tareas {
+    position:relative;
+    width: 100%;
+    height: 40%;
+    /**background-color: #664040;
+    background-color: #ffffff;**/
+    opacity:0.9;
+}
+.main-curse-blopue2-progressbar__svg {
+    /**background-color: #b42e2e;**/
+    display: inline-block;
+    position:absolute;
+    width: 55%;
+    height: 100%;
+    left:23%;
+    padding-top:18%;
+}
+.main-curse-blopue2-progressbar__svg > circle {
+    fill:none;
+    stroke-width: 10;
+    stroke:rgb(255, 174, 0);
+    transform:translate(5px,5px);
+}
+h2 {
+    display:flex;
+    position:absolute;
+    color:#1e3470;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items:center;
+    margin-top:40%;
+    width: 100%;
+    height: 10%;
+}
+h3 , h5 {
+    display:flex;
+    position:relative;
+    color:#000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 10%;
+}
+.main-curse-blopue2-Tareas__ver{
+    position:relative;
+    display:block;
+    width: 100%;
+    height: 90%;
+    padding: 20px;
+}
+.main-curce-bloque2-Tareas-ver__li {
+    width: 100%;
+    height: 30%;
+    list-style: none;
+    position:relative;
+    margin-bottom: 5px;
+}
+.main-curce-bloque2-Tareas-ver__li img {
+    position:absolute;
+    width: 25%;
+    height: 80%;
+}
+h4 {
+    display:flex;
+    position:relative;
+    color:#000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left:25%;
+    width: 100%;
+    height: 10%;
+    top: 15px;
+}
+.main-curse__contenPM {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top:0%;
+    font-family: calibri;
+}
+li {
+    display:inline-block;
+}
+
+.main-curse-contenPM__clock {
+	position:relative;
+	width: 50%;
+	height:100%;
+	/**
+	background: red;**/
+}
+.main-curse-contenPM__clocktwo {
+	position:absolute;
+	width: 50%;
+	height:100%;	
+	padding: 3%;
+}
+.main-curse-contenPM-clock__table {
+	position: relative;
+	/**
+	background: blue;**/
+	width: 100%;
+	height: 40%;
+}
+.main-curse-contenPM-clock__Dude {
+   	position:relative;
+	/**
+	background: #bbb;**/
+	width:100%;
+	height:50%;
+}
+.main-curse-contenPM-clocktwo__Q {
+	position: relative;
+	/**
+	background: #ddd;**/
+	width: 100%;
+	height: 70%;
+}
+/**Estilo de la primera unidad **/
+.main-curse-contenPM-clocktwo-Q__Unid{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;	
+	width:100%;
+	height:40%
+	display: inline-block;
+}
+.main-curse-contenPM-clocktwo-Q-Unid__af {
+	position:relative;
+	width: 100%;
+	height:8%;
+	background: black;
+    	color: #d1b16a;	
+	padding: 10px;
+}
+.main-curse-contenPM-clocktwo-Q-Unid-af__list > li{
+	position:relative;
+	display: block;
+	height: 10%;
+	color: white;
+	background: #1e3470;	
+	padding: 10px;
+}
+/**Estilo de la segunda unidad **/
+.main-curse-contenPM-clocktwo-Q__Unid2{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	background: blue;
+	width:100%;
+	height:30%
+	display: inline-block;
+}
+.main-curse-contenPM-clocktwo-Q-Unid2__afs {
+	position:relative;
+	width: 100%;
+	height:8%;
+	background: black;
+    	color: #d1b16a;	
+	padding: 10px;
+}
+.main-curse-contenPM-clocktwo-Q-Unid2__ko > li{
+	position:relative;
+	display: block;
+	height: 10%;
+	color: white;
+	background: #1e3470;
+	padding: 10px;
+}
+/**Estilo de la tercera unidad **/
+.main-curse-contenPM-clocktwo-Q__Unid3{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	background: blue;
+	width:100%;
+	height:30%
+	display: inline-block;
+}
+.main-curse-contenPM-clocktwo-Q-Unid3__afss{
+	position:relative;
+	width: 100%;
+	height:8%; 
+	background: black;
+    	color: #d1b16a;
+	padding: 10px;
+}
+.main-curse-contenPM-clocktwo-Q-Unid3__koo > li{
+	position:relative;
+	display: block;
+	height:10%;
+	color: white;
+    	background:  #1e3470;
+	padding: 10px;
+}
+/**Estilo del plan de evaluacion **/
+.main-curse-contenPM-clock-table__Eltable {
+	position:relative;
+	/**background: white;**/
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+	height:80%;
+	top: 3%;
+	color: orange;
+	opacity: 0.9;
+    	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-curse-contenPM-clock-table-Eltable__tr1 {
+	position:relative;
+	background: black;
+}
+.main-curse-contenPM-clock-table-Eltable__tr2 {
+	background:white;
+}
+.main-curse-contenPM-clock__Dude{
+	padding: 3%;
+}
+.main-curse-contenPM-clock-Dude__place {
+	position:relative;
+	/**background: white;**/
+	width: 90%;
+	height: 90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+.main-curse-contenPM-clock-Dude__place > button{
+	position:absolute;
+	background: #483D8B;
+	width: 100%;
+	height: 10%;
+	margin-left:auto;
+	margin-right:auto;
+	top: 60%;
+	left:0%;
+	border-radius: 5%;
+}
+.main-curse-contenPM-clock-Dude__place > textarea{
+	position:relative;
+	margin:0;
+	width: 100%;
+	height:60%;
+	background: #F0F8FF;
+	opacity: 0.6;
+}
