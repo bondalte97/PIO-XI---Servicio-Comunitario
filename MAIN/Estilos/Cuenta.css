@@ -109,11 +109,11 @@ button {
 	padding: 5px;
 	text-decoration:none;	
 }
-a {
+.opcional {
   text-decoration:none;
   color: black;
 }
-a:hover {
+.opcional:hover {
 	background: white;
 	padding: 5px;
 }
