@@ -30,6 +30,8 @@
     height:100%;
     padding: 10px;
     border-radius: 1%;
+    text-align: center;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 .main-section__mail {
     position:absolute;    
@@ -66,6 +68,8 @@
 	height:100%;
 	right: 0%;
         padding: 10px;
+	text-align: center;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 .main-section-mail__services {
 	position:relative;
@@ -73,6 +77,8 @@
 	height:40%;
 	top: 5px;
 	border-radius: 1%;
+	text-align: center;
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
         background: -webkit-linear-gradient(rgb(36, 53, 110), #b3a68b)!important; 
         background: -o-linear-gradient(rgb(36, 53, 110), #b3a68b)!important; 
         background: -moz-linear-gradient(rgb(36, 53, 110), #b3a68b)!important; 
@@ -87,14 +93,58 @@
 	margin-right:auto;
 }
 button {
-	position:absolute;
-	display:block;
-    	background:  #1e3470;
-	margin-left:31%;
-	height: 10%;
-	width: 30%;
-	margin-top: 15px;
+	/* utilizamos estas propiedades para centrar el botón */
+    	display: inline-block;
+    	position: relative;
+    	top: 10%;
+    	left: 50%;
+    	-webkit-transform: translateX(-50%) translateY(-50%);
+    	-ms-transform: translateX(-50%) translateY(-50%);
+    	transform: translateX(-50%) translateY(-50%);	
+	/**Configuracion del boton fantasma***/
+        font-family: Tahoma, Verdana, Segoe, sans-serif;
+    	/**font-size: 3em;*/
+    	letter-spacing: 0.1em;
+    	color: #1e3470;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	/* agregamos un borde y lo separamos del texto */
+    	border: 0.15em solid #fff;
+    	padding: 0.4em 0.6em;
+    	/* animamos el cambio de colores */
+    	-webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    	transition: color 300ms, background 500ms, border-color 700ms;
 }
+button:hover {
+    background: #819C68;
+    border-color: black;
+    color: black;
+}
+/*Configuracion de estilo del formulario/usuario */
+.form-config-user {
+	position:relavative;
+	display: inline-block;
+	/*background: red;*/
+	height: 40%;
+	width:90%;
+	padding: 3%;
+}
+label {
+	color: orange;
+}
+input {
+	position:relative;
+	display: inline-block;
+	height: 25px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.main-config-user__divs {
+	position:relative;
+	margin-bottom: 15px;
+	display:inline-block;
+}
+/*
 .main-section-config-content-foto__option {
 	position:absolute;
 	display:inline-block;	
@@ -106,17 +156,17 @@ button {
 	position:relative;
 	display:inline-block;
 	width: 50%;
-	padding: 5px;
-	text-decoration:none;	
+	text-decoration:none;
+	margin-top: 6%;	
 }
 .opcional {
-  text-decoration:none;
-  color: black;
+  	text-decoration:none;
+  	color: black;
 }
 .opcional:hover {
 	background: white;
 	padding: 5px;
-}
+}*/
 .main-lateral{
     position:fixed;
     width: 10%;
