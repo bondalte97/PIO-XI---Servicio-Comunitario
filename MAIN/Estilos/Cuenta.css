@@ -171,6 +171,30 @@ input {
 	font-family: cursive;
 	text-align: left;
 }
+/*EStilos - sección: Otro servicios **/
+.main-section-mail-services__external {
+	position:relative;
+	width: 100%;
+	padding: 10px;
+	height: 80%;
+	margin-top: 2%;
+}
+.main-section-mail-services__external > li {
+	display: inline-block;
+	position:relative;
+	width: 20%;
+	height: 100%;	
+	padding: 2%;
+}
+.main-section-mail-services__external > li:hover {
+	background: white;
+}
+.GoogleDrive {
+	position:relative;
+	width: 75%;
+	height: 50%;
+}
+/** **/
 /***/
 .main-config-user__divs {
 	position:relative;
