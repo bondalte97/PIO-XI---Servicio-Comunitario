@@ -139,12 +139,44 @@ input {
 	margin-top: 2%;
 	margin-bottom: 2%;
 }
+/*Configuracion de la bandeja de entrada*/
+.main-section__input {
+	position: relative;
+	width: 100%;
+	height: 23%;
+	padding: 5px;
+	margin-bottom: 10%;
+}
+.main-section__input:hover {
+	background: white;
+}
+.main-section__input > a {
+	color: orange;
+}
+.search-historial {
+	position:relative;
+	height: 35px;
+	border-radius-left: 50%;
+	margin-bottom: 45px;
+	margin-top: 15px;
+}
+.search {
+	position: absolute;
+	height: 35px;
+	padding: 5px;
+	top: 8.5%;
+	left:70%;
+}
+.description {
+	font-family: cursive;
+	text-align: left;
+}
+/***/
 .main-config-user__divs {
 	position:relative;
 	margin-bottom: 15px;
 	display:inline-block;
 }
-/*
 .main-section-config-content-foto__option {
 	position:absolute;
 	display:inline-block;	
@@ -152,21 +184,6 @@ input {
 	height:10%;
 	top: 50%;
 }
-.main-section-config-content-foto__option > li{
-	position:relative;
-	display:inline-block;
-	width: 50%;
-	text-decoration:none;
-	margin-top: 6%;	
-}
-.opcional {
-  	text-decoration:none;
-  	color: black;
-}
-.opcional:hover {
-	background: white;
-	padding: 5px;
-}*/
 .main-lateral{
     position:fixed;
     width: 10%;
