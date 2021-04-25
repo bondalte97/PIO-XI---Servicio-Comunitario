@@ -58,20 +58,16 @@
 .main__contenedor{
     display:block;
     position:absolute;
-    background-color: #1e3470;
-    top: 15%;
-    width: 60%;
+    top: 0%;/*15*/
+    width: 90%;/*60*/
     height: 70%;
-    margin-left: 15%;
-    box-shadow:0px 0px 4px 2px #000000;
-    -moz-box-shadow:0px 0px 4px 2px #000000;
-    -webkit-box-shadow:0px 0px 4px 2px #000000;
+    margin-left: 0%;/*15*/
 }
 .main-contenedor__optionCalendar {
     background-color: #1a1717;
     position:relative;
     top:0px;
-    width: 100%;
+    width: 99.7%;
     height: 10%;
 }
 .main-contenedor-optionCalendar__jk {
@@ -85,13 +81,11 @@
     padding: 15px;
     background-color: rgb(214, 193, 7);
     height: 100%;
-    border-radius: 10%;
 }
 .main-contenedor-optionCalendar__PT {
     position: absolute;
     right: 0px;
     background-color: rgb(216, 68, 68);
-    border-radius: 10%;
     width: 5%;
     height: 100%;
 
@@ -114,11 +108,10 @@
 .main-contenedor-Botones__me {
     background-color: rgb(247, 190, 2);
     position:relative;
-    width: 50%;
+    width: 25%;
     float:right;
     height: 50%;
-    top:25%;
-    border-radius: 10%;
+    top:25%; 
 }
 h3 {
     color:orange;
@@ -134,7 +127,8 @@ th {
     background-color: white;
 }
 .main-contenedor-table__dias {
-    background-color: #e5e9a9;
+    background-color:#003366;/*#e5e9a9*/
     position:relative;
-    height: 76px;
+    height: 112px;
+    color: white;
 }
