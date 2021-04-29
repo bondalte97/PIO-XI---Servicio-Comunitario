@@ -59,24 +59,81 @@
 .main__filecontent {
 	position:absolute;
 	display:block;
+	left:0%;
 	width:90%;
 	height:100%;
-	padding:10px;
 	background: white;
 }
 .listFile {
-	position:relative;
-	background: black;
+	position:absolute;
+    	/**background-color:  #1e3470;**/
+    	background-color:  hsl(177, 50%, 46%);
 	width:100%;
 	height:30%;
-	padding: 10px;
-	/**display: inline-block;*/
 }
 .viewfile {
-	position:relative;
+	position:absolute;
 	background: green;
 	width:100%;
 	height:70%;
-	padding: 10px;
-	/**display: inline-block;*/
+	top: 30%;
+}
+/**Configuración de estilos: busqueda de archivos **/
+.listFile > li {
+	list-style: none;
+	display: inline-block;
+}
+.listFile__carga {
+	position: absolute;
+	background: white;
+	width: 60%;
+	height: 100%; 
+	display: inline-block;
+}
+.listFile__User {
+	position: absolute;
+	width: 40%;
+	height: 100%;
+	left: 60%;
+	display: inline-block;
+}
+/**Configuración de estilo: Sección de descarga de archivos y items **/
+.listItem > li {
+	list-style: none;
+	display: inline-block;
+}
+.listItem__Download {
+	position: absolute;
+	background: white;
+	width: 80%;
+	height: 100%; 
+	display: inline-block;
+}
+.listItem__items {
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	left: 80%;
+	display: inline-block;
+}
+/**Configuración Usericon**/
+.UserIcon {
+	position: relative;
+	width: 40%;
+	height: 60%;
+	margin-left: 60%;
+	margin-top: 5%;
+}
+.arch {	
+	position: relative;
+	margin-left: 28%;
+	margin-top: -12%;
+	font-family: calibri;
+	color: white;
+}
+/**Configuración de estilo: sección de busqueda de archivos**/
+.listFile__carga >input {
+	position: relative;
+	width: 50%;
+	height: 15%;
 }
