@@ -255,3 +255,13 @@ input {
 .main-lateral-navegation__option{
     width: 75%;
 }
+.main-section-config-content-foto__option {
+	list-style:none;
+	position:absolute;
+	display:inline-block;
+	margin-top:8%;
+}
+.main-section-config-content-foto__option > li > a {
+	text-decoration:none;
+	color: white;
+}

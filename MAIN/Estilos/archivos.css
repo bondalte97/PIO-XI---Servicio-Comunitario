@@ -148,14 +148,17 @@
 .busqq {
 	position:absolute;
 	width: 10%;
-	height:15%;
+	height:13%;
 	margin-left: -7.5%;
-	top: 31%;
+	top: 32%;
 }
 /**Configuración de estilo: opciones **/
 .__option {
 	position:relative;
 	height:5%;
+	margin-left:15%;
+	color: white;
+	font-family: calibri;
 }
 .__option > li {
 	display: inline-block;
@@ -174,14 +177,11 @@
 	position:relative;
 	width:30.3%;
 	padding: 2%;
-}
-.__listFiles > li:hover {
-	background:orange;
-	color:white;
+	text-align:center;
+	font-size: 18px;
 }
 .__allfile{
 	position:relative;
-	/**background: red;**/
 	height 100%;
 	width:100%;
 }
