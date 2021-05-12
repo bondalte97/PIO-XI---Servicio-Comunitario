@@ -61,6 +61,10 @@
 	left:0%;
 	width:90%;
 	height:100%;
+    	background: -webkit-linear-gradient(rgb(36, 53, 110), #b3a68b)!important; 
+    	background: -o-linear-gradient(rgb(36, 53, 110), #b3a68b)!important; 
+    	background: -moz-linear-gradient(rgb(36, 53, 110), #b3a68b)!important; 
+    	background: linear-gradient(rgb(36, 53, 110), #b3a68b)!important;
 }
 .main__Info > div {
 	display:inline-block;
@@ -83,18 +87,35 @@
 	width:80%;
 	height:40%;
 	margin-top:2%;
-	background:white;
+	/**background:white;**/
+	padding:5%;
+    	box-shadow:0px 0px 4px 2px #000000;
+    	-moz-box-shadow:0px 0px 4px 2px #000000;
+    	-webkit-box-shadow:0px 0px 4px 2px #000000;
+}
+.__FirsQuestion > p {
+	position:relative;
+	margin-bottom: 3%;
+	color:orange;
+}
+input , label {
+	position:relative;
+	margin-left: 3%;
 }
 button {
 	position:relative;
 	margin-top:2%;
 	margin-left:35%;
+	padding:1%;
 }
 .__Seguimiento {
 	position:relative;
 	width:100%;
 	height:90%;
 	/**background:white;**/
+    	box-shadow:0px 0px 4px 2px #000000;
+    	-moz-box-shadow:0px 0px 4px 2px #000000;
+    	-webkit-box-shadow:0px 0px 4px 2px #000000;
 }
 .__Seguimiento > li {
 	list-style:none;
@@ -103,17 +124,46 @@ button {
 	position:relative;
 	width:100%;
 	height:15%;
-	background:blue;	
+	/**background:blue;**/
+	padding: 10px;	
+}
+.__NAME-TEST > h3{
+	position:relative;
+	margin-left:18%;
+	color:white;
+}
+.__NAME-TEST > h4 {
+	position:relative;
+	margin-left:39%;
+	color:white
+}
+.__NAME-TEST > h5 {
+	position:relative;
+	color:orange;
+	margin-left:47%;
 }
 .__LIST-QUESTION {
 	position:relative;
 	width:100%;
 	height:65%;
-	background:orange;	
+	/**background:orange;**/
 }
 .__CLOCK {
 	position:relative;
 	width:100%;
-	height:5%;
-	background:green;	
+	height:20%;
+	background:green;
+}
+.__LIST-QUESTION > ul {
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.Pre {
+	position:relative;
+	width:100%;
+	height:7.2%;
+	list-style:none;
+	/**background:white;**/
+	opacity:1;
 }
