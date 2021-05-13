@@ -76,6 +76,9 @@
 	/**background:white;**/
 	padding:3%;
 }
+.__Enunciado{
+	color:orange;
+}
 .__Progress {
 	position:absolute;
 	width:30%;
@@ -145,14 +148,16 @@ button {
 .__LIST-QUESTION {
 	position:relative;
 	width:100%;
-	height:65%;
+	height:60%;
 	/**background:orange;**/
 }
 .__CLOCK {
 	position:relative;
 	width:100%;
-	height:20%;
-	background:green;
+	height:5%;
+}
+.__CLOCK > p {
+	text-align:center;
 }
 .__LIST-QUESTION > ul {
 	position:relative;
@@ -164,6 +169,15 @@ button {
 	width:100%;
 	height:7.2%;
 	list-style:none;
-	/**background:white;**/
-	opacity:1;
+}
+.Pre > p[class="N"] {
+	float:right;
+	color:#00FA9B;
+	font-size:15px;
+	margin-right:5px;
+}
+.ESP {
+	color:orange;
+	float:right;
+	margin-right: 5px;
 }
